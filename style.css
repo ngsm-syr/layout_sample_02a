@@ -28,8 +28,12 @@ body {
 
 /* header */
 header {
-  /* background: #EEE; */
-  position: relative;
+  background: #EEE;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 90px;;
 }
 
 header h1 {
@@ -60,13 +64,6 @@ nav ul li {
 nav ul li a {
   font-weight: bold;
   color: #333;
-}
-
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
 }
 
 /* main contents */
